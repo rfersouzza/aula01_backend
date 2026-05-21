@@ -15,7 +15,7 @@ app.get('/contato', (req, res) => {
 });
 
 app.get('/produtos', (req, res) => {
-    res.send('Lista de produtos');
+    res.send('Produtos em lista');
 });
 
 app.get('/servicos', (req, res) => {
