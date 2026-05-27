@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header><h1>Cadastro de Usuário</h1></header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/login">Login</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Criar conta</h2>
+            <form action="/cadastro" method="post">
+                <label for="nome">Nome</label>
+                <br>
+                <input type="text" name="nome" id="nome">
+                <br><br>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="senha">Senha</label>
+                <br>
+                <input type="password" name="senha" id="senha">
+                <br><br>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer><p>UC13 - Programação Backend</p></footer>
+</body>
+</html>
